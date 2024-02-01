@@ -4,8 +4,8 @@ import React from "react";
 function Testimony() {
 	return (
 		<div	className="container-testimony">
-			<img className="image-testimony"src={require("../image/image01.png")} 
-			alt="Image student" ></img>
+			<img className="image-testimony" src={require("../image/Image01.png")} 
+			alt="student" ></img>
 			<div className="container-text-testimony">
 				<p className="name-testimony">Juan Perez en Lider</p>
 				<p className="employer-testimony">Ingeniero Comercial</p>
@@ -20,3 +20,5 @@ function Testimony() {
 		
 	);
 }
+
+export default Testimony;

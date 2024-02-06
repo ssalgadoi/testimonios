@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import  Testimony  from './component/Testimony';
+import  Testimony  from './component/testimony';
+
 
 function App() {
   return (
